@@ -1,0 +1,27 @@
+# Example feature flags configuration for ffxl
+# Copy this file to feature-flags.yaml in your project root
+
+features:
+  # Global feature flag - enabled for everyone
+  new_dashboard:
+    enabled: true
+    comment: "New dashboard UI available to all users"
+
+  # Global feature flag - disabled for everyone
+  beta_analytics:
+    enabled: false
+    comment: "Beta analytics feature - not ready for production"
+
+  # User-specific feature flag
+  admin_panel:
+    onlyForUserIds:
+      - "user-123"
+      - "user-456"
+    comment: "Admin panel access restricted to specific users"
+
+  # Combined configuration - user list takes precedence
+  experimental_feature:
+    enabled: false
+    onlyForUserIds:
+      - "user-789"
+    comment: "Experimental feature - disabled globally but enabled for test user"
