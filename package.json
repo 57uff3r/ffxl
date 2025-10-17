@@ -40,16 +40,16 @@
     "backend",
     "lightweight"
   ],
-  "author": "",
+  "author": "Andrey Korchak <me@akorchak.software> (https://akorchak.software)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ffxl.git"
+    "url": "https://github.com/57uff3r/ffxl.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/ffxl/issues"
+    "url": "https://github.com/57uff3r/ffxl/issues"
   },
-  "homepage": "https://github.com/yourusername/ffxl#readme",
+  "homepage": "https://github.com/57uff3r/ffxl#readme",
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.10.5",
