@@ -1,14 +1,21 @@
-# ffxl - Feature Flags Extra Light
+<p align="center">
+  <img src="assets/logo.svg" alt="ffxl logo" width="200"/>
+</p>
 
-[![npm version](https://badge.fury.io/js/ffxl.svg)](https://www.npmjs.com/package/ffxl)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<h1 align="center">ffxl - Feature Flags Extra Light</h1>
 
-Write for me an intro paragraph for project summary based on my inputs
+<p align="center">
+  <a href="https://www.npmjs.com/package/ffxl"><img src="https://badge.fury.io/js/ffxl.svg" alt="npm version"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
 
-There are many different feature flag services. Most of them are large and hard to use: they rely on APIs,
-store flags on remote servers. Some of them require sophisticated condifs. Featue flags extra light (ffxl)
-is a lightweight solution for those, who need very simple feature flags (which can be easily stored in local
-repository via YAML files).
+<p align="center">
+  <em>A refreshingly simple approach to feature flags</em>
+</p>
+
+---
+
+There are many feature flag services out there. Most of them are large and complex: they rely on APIs, store flags on remote servers, and require sophisticated configurations. **Feature Flags Extra Light (ffxl)** is different – it's a lightweight, file-based solution for those who need simple feature flags that can be easily stored in your local repository via YAML files. No external services, no complicated setup, just straightforward feature management.
 
 ## Features
 
