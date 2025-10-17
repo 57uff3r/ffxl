@@ -1,11 +1,14 @@
 # ffxl - Feature Flags Extra Light
 
-[![CI](https://github.com/yourusername/ffxl/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/ffxl/actions/workflows/ci.yml)
 [![npm version](https://badge.fury.io/js/ffxl.svg)](https://www.npmjs.com/package/ffxl)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A lightweight, type-safe feature flags library for JavaScript and TypeScript applications.
-Works seamlessly in both frontend (browser) and backend (Node.js) environments.
+Write for me an intro paragraph for project summary based on my inputs
+
+There are many different feature flag services. Most of them are large and hard to use: they rely on APIs,
+store flags on remote servers. Some of them require sophisticated condifs. Featue flags extra light (ffxl)
+is a lightweight solution for those, who need very simple feature flags (which can be easily stored in local
+repository via YAML files).
 
 ## Features
 
@@ -338,6 +341,13 @@ npm run test:coverage
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contacts
+
+Drop me a line if uo have any questions or suggestions:
+
+[LinkedIn](https://www.linkedin.com/in/a-korchak/) • [X/Twitter](https://x.com/andreykorchak) • [Website](https://akorchak.software/) • [me@akorchak.software](mailto:me@akorchak.software)
+
 
 ## License
 
